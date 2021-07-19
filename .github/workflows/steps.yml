@@ -1,7 +1,8 @@
 name: steps
 on:
   push:
-    branches: [ master ]
+    branches:
+      - main
 jobs:
   run:
     runs-on: ubuntu-20.04
